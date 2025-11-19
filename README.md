@@ -45,7 +45,7 @@
 ---
 
 ## โครงสร้างโปรเจกต์ (Project Structure)
-
+```
 speech-to-text/
 ├── app/
 │ ├── gui.py
@@ -65,15 +65,19 @@ speech-to-text/
 ├── main.py
 ├── requirements.txt
 └── Run_speech_to_text.bat
-
+```
 ---
 
 ## วิธีติดตั้ง (Installation)
 
 1. เตรียมโครงสร้างโปรเจกต์ให้ตรงกับด้านบน  
-2. ติดตั้ง dependencies (ใช้ Python portable): python\python.exe -m pip install -r requirements.txt --prefix python
-3. รันโปรแกรม: python\pythonw.exe main.py
-หรือใช้ไฟล์: Run_speech_to_text.bat
+2. ติดตั้ง dependencies (ใช้ Python portable):
+- python\python.exe -m pip install -r requirements.txt --prefix python
+4. รันโปรแกรม:
+- python\pythonw.exe main.py
+   
+หรือใช้ไฟล์: 
+- Run_speech_to_text.bat
 ซึ่งมีระบบตรวจสอบ dependencies + FFmpeg + splash screen
 
 ---
